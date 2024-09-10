@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.yellow-gradient {
+  background: rgb(173, 135, 73);
+  background: linear-gradient(
+    180deg,
+    rgba(173, 135, 73, 1) 0%,
+    rgba(220, 187, 117, 1) 100%
+  );
+}
+
+.main-gradient {
+  background: rgb(40, 54, 6);
+  background: linear-gradient(
+    101deg,
+    rgba(40, 54, 6, 1) 0%,
+    rgba(15, 21, 0, 1) 100%
+  );
+  padding: 50px 50px;
+}
+
+
+.slider-container {
+  position: relative;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  max-width: 100%; /* Ensure it has full width */
+  height: 400px; /* Adjust height as needed */
+  overflow: hidden; /* Hide overflow to ensure swipe works */
+}
+
+.ms-slider {
+  margin-left: 262px;
+}
+
+.slider_images .swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.slider_images .swiper-slide:nth-child(1)  {
+  width: 385px  !important;
+  height: 526px;
+}
+
+.slider_images .swiper-slide:nth-child(2)  {
+  width: 228px  !important;
+  height: 322px;
+}
+
+
+.slider_images .swiper-slide:nth-child(3)  {
+  width: 385px !important;
+height: 526px;
+  margin-bottom: 30px;
+}
+
+.slider_images .swiper-slide:nth-child(4)  {
+  width: 291px !important;
+height: 402px;
+}
+
+.slider_images .swiper-slide:nth-child(1) img {
+  width: 385px;
+  height: 526px;
+}
+
+.slider_images .swiper-slide:nth-child(2) img {
+  width: 228px;
+  height: 322px;
+}
+
+
+.slider_images .swiper-slide:nth-child(3) img {
+  width: 385px;
+height: 526px;
+  margin-bottom: 30px;
+}
+
+.slider_images .swiper-slide:nth-child(4) img {
+  width: 291px;
+height: 402px;
+}
+
